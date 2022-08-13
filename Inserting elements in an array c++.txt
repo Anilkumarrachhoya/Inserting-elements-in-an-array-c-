@@ -9,10 +9,10 @@ int main()
    int arr[]={1,5,6,7,4,9,3,2};
    
   int n;
-  cin>>n;
+  cin>>n; //Which index you want to change
    
   int number;
-  cin>>number;
+  cin>>number; //which number you want to insert
    
   for(int i=sizeof(arr)/sizeof(arr[0])-1;i>=n-1;i--){
       
